@@ -4,7 +4,6 @@ import PostFeed from "@/components/PostFeed";
 import Trending from "@/components/Trending";
 import BottomBanner from "@/components/BottomBanner";
 import { useSelector } from "react-redux";
-import { useRouter } from "next/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
