@@ -31,7 +31,7 @@ export default function CommentModal() {
   function formatTimestamp(timestamp) {
     const postDate = moment.unix(timestamp).date();
     const currentDate = moment().date();
-    const diff = currentDate - postDate;
+    const diff = postDate -  currentDate
 
     const formattedDate = moment.unix(timestamp).format("MMM D");
     const fromNow = moment.unix(timestamp).fromNow();
